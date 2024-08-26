@@ -1,6 +1,5 @@
 
 //VARIAVEIS DO PERSONAGEM
-let superVelocidade = 0
 let xPersonagem = 200;
 let yPersonagem = 200;
 let alturaPersonagem = 20;
@@ -19,7 +18,6 @@ function setup() {
 }
 
 function draw() {
-  super
   background(color(10, 60, 0));
   botoes(xPersonagem,yPersonagem);
   movimentoPersonagem();
